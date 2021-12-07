@@ -6,14 +6,14 @@ main()
 	scanf("%d%d%d",&a,&b,&c);
 	if(a<b && b<c)
 	{
-		printf("%d is smallest",a);
+		printf("%d is MINIMUM",a);
 	}
 	else if(b<c)
 	{
-		printf("%d is smallest",b);
+		printf("%d is MINIMUM",b);
 	}
 	else
 	{
-		printf("%d is smallest",c);
+		printf("%d is MINIMUM",c);
 	}	
 }
